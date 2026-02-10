@@ -1,0 +1,33 @@
+.homePage {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url("/bg-image/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: grid;
+  place-items: center;
+
+  .box {
+    max-width: 900px;
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+
+    .title {
+      color: var(--base-white);
+      text-shadow:
+        -1px 0 var(--box-shadow-text),
+        1px 0 var(--box-shadow-text),
+        0 -1px var(--box-shadow-text),
+        0 1px var(--box-shadow-text),
+        -1px -1px var(--box-shadow-text),
+        1px -1px var(--box-shadow-text),
+        -1px 1px var(--box-shadow-text),
+        1px 1px var(--box-shadow-text);
+      margin-bottom: var(--space-l);
+    }
+  }
+}
