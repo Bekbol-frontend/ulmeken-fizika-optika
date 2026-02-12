@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Section } from "@/shared/ui/Section";
 import styles from "./MaruzaTestPage.module.scss";
-import { Button, Card, Col, Row, Modal, Radio, message } from "antd";
+import { Button, Card, Col, Row, Modal, Radio, message, Divider } from "antd";
 import { useResponsive } from "@/shared/lib/hooks/useResponsive";
 import { BackBtn } from "@/shared/ui/BackBtn";
 
@@ -1284,6 +1284,8 @@ const MaruzaTestPage: React.FC = () => {
                   );
                 })}
               </Radio.Group>
+
+              <Divider />
             </div>
           ))}
         <Button type="primary" onClick={submitTest}>
