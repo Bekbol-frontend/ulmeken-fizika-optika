@@ -1,0 +1,14 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    max-width: 700px;
+    width: 100%;
+
+    .btn {
+      width: 100%;
+    }
+  }
+}

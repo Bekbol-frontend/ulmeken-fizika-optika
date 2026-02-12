@@ -51,7 +51,11 @@ function MaruzaPage() {
               }
               className={styles.card}
             >
-              <Button type="primary" className={styles.btn}>
+              <Button
+                type="primary"
+                className={styles.btn}
+                onClick={() => navigate(appRoutes.maruzaTest)}
+              >
                 Test
               </Button>
             </Card>
