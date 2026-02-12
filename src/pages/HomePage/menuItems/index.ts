@@ -1,7 +1,9 @@
+import { appRoutes } from "@/shared/config/routeConfig";
+
 export const menuItems = [
   {
     name: "Ma'ruza",
-    page: "/",
+    page: appRoutes.maruza,
   },
   {
     name: "Amaliy",
