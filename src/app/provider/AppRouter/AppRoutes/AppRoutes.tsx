@@ -7,6 +7,7 @@ import { LekciyaPageAsync } from "@/pages/LekciyaPage";
 import { MaruzaTestPageAsync } from "@/pages/MaruzaTestPage";
 import { AmaliyPageAsync } from "@/pages/AmaliyPage";
 import { AmaliyMavzuPageAsync } from "@/pages/AmaliyMavzuPage";
+import { AmaliyTestPageAsync } from "@/pages/AmaliyTestPage";
 
 function AppRoutes() {
   return (
@@ -21,6 +22,7 @@ function AppRoutes() {
           path={appRoutes.amaliyMavzu}
           element={<AmaliyMavzuPageAsync />}
         />
+        <Route path={appRoutes.amaliyTest} element={<AmaliyTestPageAsync />} />
       </Route>
     </Routes>
   );

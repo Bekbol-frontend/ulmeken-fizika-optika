@@ -54,7 +54,7 @@ function AmaliyPage() {
               <Button
                 type="primary"
                 className={styles.btn}
-                onClick={() => navigate(appRoutes.maruzaTest)}
+                onClick={() => navigate(appRoutes.amaliyTest)}
               >
                 Mustaqil yechish uchun masalalar
               </Button>

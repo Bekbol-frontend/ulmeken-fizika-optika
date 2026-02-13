@@ -7,6 +7,7 @@ export const appRoutes = {
 
   amaliy: "/amaliy",
   amaliyMavzu: "/amaliy-mavzu",
+  amaliyTest: "/amaliy-test",
 
   virtualLaboratoriya: "/virtual-laboratoriya",
   mustaqilTalim: "/mustaqil-talim",
