@@ -7,7 +7,7 @@ export const menuItems = [
   },
   {
     name: "Amaliy",
-    page: "/",
+    page: appRoutes.amaliy,
   },
   {
     name: "Virtual laboratoriya",

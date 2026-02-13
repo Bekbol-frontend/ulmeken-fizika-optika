@@ -159,7 +159,7 @@ const test2: TestQuestion[] = [
   {
     question:
       "5. Muhitning mutloq sindirish ko‘rsatkichi , dielektrik va magnit singdiruvchanliklari orasidagi bog‘liqlik qaysi formulada to‘g‘ri ko‘rsatilgan?",
-    options: ["A) n = ε.μ", "B) n =", "C) n = ε μ", "D) n = ε + μ"],
+    options: ["A) n = ε.μ", `B) n = √εμ`, "C) n = ε μ", "D) n = ε + μ"],
     answer: "B",
   },
   {
