@@ -8,6 +8,7 @@ import { MaruzaTestPageAsync } from "@/pages/MaruzaTestPage";
 import { AmaliyPageAsync } from "@/pages/AmaliyPage";
 import { AmaliyMavzuPageAsync } from "@/pages/AmaliyMavzuPage";
 import { AmaliyTestPageAsync } from "@/pages/AmaliyTestPage";
+import { LaboratoriyaPageAsync } from "@/pages/LaboratoriyaPage";
 
 function AppRoutes() {
   return (
@@ -23,6 +24,10 @@ function AppRoutes() {
           element={<AmaliyMavzuPageAsync />}
         />
         <Route path={appRoutes.amaliyTest} element={<AmaliyTestPageAsync />} />
+        <Route
+          path={appRoutes.laboratoriya}
+          element={<LaboratoriyaPageAsync />}
+        />
       </Route>
     </Routes>
   );

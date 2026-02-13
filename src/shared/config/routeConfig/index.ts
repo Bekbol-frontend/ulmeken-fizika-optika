@@ -11,4 +11,6 @@ export const appRoutes = {
 
   virtualLaboratoriya: "/virtual-laboratoriya",
   mustaqilTalim: "/mustaqil-talim",
+
+  laboratoriya: "/laboratoriya",
 } as const;

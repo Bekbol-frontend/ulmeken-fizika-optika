@@ -11,7 +11,7 @@ export const menuItems = [
   },
   {
     name: "Virtual laboratoriya",
-    page: "/",
+    page: appRoutes.laboratoriya,
   },
   {
     name: "Mustaqil ta'lim",
