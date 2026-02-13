@@ -11,7 +11,7 @@ interface Lekciya {
 }
 
 const lekciyalar: Lekciya[] = Array.from({ length: 12 }, (_, i) => ({
-  name: `Lekciya-${i + 1}`,
+  name: `Maruza-${i + 1}`,
   file: `/lekcia/pdf/Maruza ${i + 1}.pdf`,
 }));
 
@@ -52,7 +52,7 @@ const LekciyaPage: React.FC = () => {
       </Card>
 
       <Modal
-        title="Lekciya"
+        title="Maruza"
         open={visible}
         onCancel={closeModal}
         footer={null}

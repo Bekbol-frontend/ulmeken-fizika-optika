@@ -34,7 +34,7 @@ function MaruzaPage() {
                 className={styles.btn}
                 onClick={() => navigate(appRoutes.lekciya)}
               >
-                Lekciya
+                Maruza
               </Button>
             </Card>
           </Col>
